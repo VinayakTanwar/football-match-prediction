@@ -1,4 +1,4 @@
-# ⚽ Football Match Outcome Prediction — Complete Machine Learning Project
+#  Football Match Outcome Prediction — Complete Machine Learning Project
 
 A fully end‑to‑end, production‑ready **Football Match Outcome Prediction System** that uses advanced Machine Learning models like **CatBoost, XGBoost, and Random Forest**. This project predicts the match result — **Win / Draw / Loss** — using rich historical match data and powerful feature engineering.
 
@@ -225,26 +225,26 @@ Required for prediction pipelines.
 # 📁 Project Folder Structure (Recommended)
 
 ```
-📁 football-prediction-ml
+project/
 │
 ├── data/
-│   └── final_matches.csv
+│ └── final_matches.csv
 │
 ├── notebooks/
-│   └── Football_Match_Prediction.ipynb
+│ ├── 1_raw_exploration.ipynb
+│ ├── 2_model_training.ipynb
+│ └── 3_visualization.ipynb
 │
-├── models/
-│   ├── catboost_model.cbm
-│   ├── encoders.pkl
-│   └── scaler.pkl
-│
-├── src/
-│   ├── pipeline.py
-│   ├── preprocessing.py
-│   └── predict.py
-│
+models/
+│ ├── catboost_model.cbm
+│ ├── rf_model.pkl
+│ ├── xgb_best.pkl
+│ ├── scaler.pkl
+│ ├── encoders.pkl
+│ └── features.json
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── .gitignore
 ```
 
 ---
